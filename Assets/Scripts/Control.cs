@@ -4,29 +4,24 @@ using System.Collections;
 public class Control : MonoBehaviour
 {
 
-    public float Speed = 4f;
-    public Vector3 JumpHeight;
+    public float speed = 6.0F;
+    public float jumpSpeed = 8.0F;
+    public float gravity = 20.0F;
+    private Vector3 moveDirection = Vector3.zero;
+    void Update()
+    {
+        CharacterController controller = GetComponent<CharacterController>();
+        if (controller.isGrounded)
+        {
+            moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+            moveDirection = transform.TransformDirection(moveDirection);
+            moveDirection *= speed;
+            if (Input.GetButton("Jump"))
+                moveDirection.y = jumpSpeed;
 
-    public Rigidbody Rb;
-
-    private Vector3 _initialLookdirection;
-
-	// Use this for initialization
-	void Start ()
-	{
-	    Rb = GetComponent<Rigidbody>();
-	    _initialLookdirection = transform.localScale;
-	}
-	
-	// Update is called once per frame
-	void Update ()
-	{
-	    var dir = Vector3.right*Input.GetAxis("Horizontal")*Speed*Time.deltaTime;
-        transform.Translate(dir);
-
-        if (Input.GetButtonDown("Jump"))
-	    {
-	        Rb.AddForce(JumpHeight);
-	    }
-	}
+        }
+        moveDirection.y -= gravity * Time.deltaTime;
+        moveDirection.z = 0;
+        controller.Move(moveDirection * Time.deltaTime);
+    }
 }
