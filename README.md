@@ -1,6 +1,6 @@
 # Speedtato
 
-SpeeTato is a maniac potato whos only goal is to destroy the world of fast food. He has to evade the arch enemy of every potato: frying pans, cooking pots and ovens.
+SpeeTato is a maniac speedy potato whos only goal is to destroy the world of fast food. He has to evade the arch enemy of every potato: frying pans, cooking pots and ovens.
 
 ___Ingame:___
 ![](http://i.imgur.com/K5gDirk.png)
