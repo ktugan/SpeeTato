@@ -29,4 +29,18 @@ public class Control : MonoBehaviour
 	        Rb.AddForce(JumpHeight);
 	    }
 	}
+    /*
+    void onTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Pick Up"))
+            other.gameObject.SetActive(false);
+    }
+
+
+    void onTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag = "...") Destroy(gameObject);
+
+    }*/
+
 }
