@@ -16,6 +16,12 @@ public class Player : MonoBehaviour
             rg.velocity = Vector2.zero;
             rg.AddForce(jumpForce);
         }
+
+        Vector2 screenPosition = Camera.main.WorldToScreenPoint(transform.position);
+        if (screenPosition.y > Screen.height || screenPosition.y < 0)
+        {
+            Die();
+        }
     }
 
     // Die by collision
