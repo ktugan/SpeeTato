@@ -31,5 +31,5 @@ Kadir Tugan
 Wolfram Knan 
 Hersztowski
 
-==Author Notes==
+## Author Notes
 Awesome Game.
