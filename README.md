@@ -28,6 +28,7 @@ Frying sound source:  http://soundbible.com/2031-Frying-Food.html
 ### Main-Backgroundsounds
 From Eric Skiffs album "Resistor Anthems", 
 title 03 "Chibi Ninja".
+Menu Sound: http://soundbible.com/1266-City-Ambiance.html
 
 Source: http://ericskiff.com/music/
 
