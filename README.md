@@ -2,11 +2,16 @@
 
 SpeeTato is a maniac potato whos only goal is to destroy the world of fast food. He has to evade the arch enemy of every potato: frying pans, cooking pots and ovens.
 
+![](http://i.imgur.com/K5gDirk.png)
+
+![](http://i.imgur.com/aTqYBSa.png)
+
+
 ## Controls
 Press spacebar to fly.
 Press Esc for menue.
 
- ## Assets
+## Assets
 Most of the assets are own creations with paint and paint.net. Following few Assets are taken from the holy internet.
 
 ### Background Images
