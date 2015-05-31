@@ -7,7 +7,7 @@ namespace Assets.Scripts
 
         public GameObject Obstacle;
         public float RepeatTime = 5.5f;
-        private int score = 0;
+        private static int score = 0;
 
         void Start () {
             InvokeRepeating("CreateObstacle", 1f, RepeatTime);
