@@ -33,8 +33,10 @@ Source: http://ericskiff.com/music/
 
 ### Authors
 Kadir Tugan
+
 Wolfram Knan 
-Hersztowski
+
+Katharina Hersztowski
 
 ## Author Notes
 Awesome Game.
