@@ -4,11 +4,13 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private Rigidbody2D rg;
+    
     void Start()
     {
         rg = GetComponent<Rigidbody2D>();
     }
 
+    public AudioSource DeathSoundSource;
     public Vector2 jumpForce = new Vector2(0, 300);
     void Update()
     {
@@ -33,6 +35,8 @@ public class Player : MonoBehaviour
 
     void Die()
     {
+        GetComponent<AudioSource>().Play();
+        //DeathSoundSource.Play();
         Application.LoadLevel(Application.loadedLevel);
     }
 }
