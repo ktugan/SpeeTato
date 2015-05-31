@@ -9,18 +9,18 @@ Press Esc for menue.
  ## Assets
 Most of the assets are own creations with paint and paint.net. Following few Assets are taken from the holy internet.
 
-===Sound assets sources==
+### Sound assets sources
 Death sound source:   http://soundbible.com/1945-Smashing.html
 Frying sound source:  http://soundbible.com/2031-Frying-Food.html
 (Points sound source: http://soundbible.com/2072-Shell-Falling.html)
 
-===Main-Backgroundsound source===
+### Main-Backgroundsound source
 From Eric Skiffs album "Resistor Anthems", 
 title 03 "Chibi Ninja".
 
 Source: http://ericskiff.com/music/
 
-===Authors===
+### Authors
 Kadir Tugan
 Wolfram Knan 
 Hersztowski
