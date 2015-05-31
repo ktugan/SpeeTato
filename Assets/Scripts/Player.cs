@@ -30,6 +30,7 @@ public class Player : MonoBehaviour
         if (screenPosition.y > Screen.height || screenPosition.y < 0)
         {
             Die();
+            GameOver();
         }
 
         
@@ -38,7 +39,8 @@ public class Player : MonoBehaviour
     // Die by collision
     void OnCollisionEnter2D(Collision2D other)
     {
-        Die();
+        Die(); 
+        GameOver();
     }
 
     void Die()
@@ -46,5 +48,11 @@ public class Player : MonoBehaviour
         GetComponent<AudioSource>().Play();
         //DeathSoundSource.Play();
         Application.LoadLevel(Application.loadedLevel);
+    }
+
+
+    void GameOver()
+    {
+        Application.LoadLevel("GameOver");
     }
 }

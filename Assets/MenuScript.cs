@@ -10,7 +10,10 @@ public class MenuScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+        if (Input.GetKeyDown("space"))//KeyCode.escape
+        {
+            Application.LoadLevel("SpeedTato");
+        }
 	}
 
     public void OnClickPlay()
@@ -23,7 +26,14 @@ public class MenuScript : MonoBehaviour {
         //Application.LoadLevel("Quit");
         Application.Quit();
     }
-   
-    
+
+    public void OnClickSpace()
+    {
+
+        if (Input.GetKeyDown("space"))//KeyCode.escape
+        {
+            Application.LoadLevel("SpeedTato");
+        }
+    }
  
 }
