@@ -20,6 +20,10 @@ public class MenuScript : MonoBehaviour {
 
     public void OnClickExit()
     {
-        Application.LoadLevel("Quit");
+        //Application.LoadLevel("Quit");
+        Application.Quit();
     }
+   
+    
+ 
 }

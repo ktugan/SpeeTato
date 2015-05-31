@@ -20,11 +20,19 @@ public class Player : MonoBehaviour
             rg.AddForce(jumpForce);
         }
 
+        if (Input.GetKeyDown("escape"))//KeyCode.escape
+        {
+            Application.LoadLevel("MainMenu");
+        }
+
+
         Vector2 screenPosition = Camera.main.WorldToScreenPoint(transform.position);
         if (screenPosition.y > Screen.height || screenPosition.y < 0)
         {
             Die();
         }
+
+        
     }
 
     // Die by collision
