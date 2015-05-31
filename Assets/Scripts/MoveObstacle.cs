@@ -2,7 +2,10 @@
 
 namespace Assets.Scripts
 {
-    public class MoveObstacle : MonoBehaviour {
+    public class MoveObstacle : MonoBehaviour
+    {
+
+        public static float Multiplier = 1;
 
         public Vector2 Velocity = new Vector2(-4, 0);
         private Rigidbody2D rg;
@@ -15,7 +18,7 @@ namespace Assets.Scripts
         // Update is called once per frame
         void Update ()
         {
-            rg.velocity = Velocity;
+            rg.velocity = Velocity * Multiplier;
         }
     }
 }
