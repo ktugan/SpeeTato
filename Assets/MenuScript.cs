@@ -17,4 +17,9 @@ public class MenuScript : MonoBehaviour {
     {
         Application.LoadLevel("SpeedTato");
     }
+
+    public void OnClickExit()
+    {
+        Application.LoadLevel("Quit");
+    }
 }
