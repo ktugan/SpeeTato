@@ -1,4 +1,4 @@
-# Speedtato
+# Speetato
 
 SpeeTato is a maniac speedy potato whos only goal is to destroy the world of fast food. He has to evade the arch enemy of every potato: frying pans, cooking pots and ovens.
 
