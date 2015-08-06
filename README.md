@@ -39,7 +39,5 @@ Kadir Tugan
 
 Wolfram Knan 
 
-Katharina Hersztowski
-
 ## Author Notes
 Awesome Game.
